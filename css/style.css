@@ -1,3 +1,11 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../assets/profile.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
 .homepage-img {
     opacity: 90%;
 }
@@ -24,33 +32,47 @@
     background-color: lightgray;
 }
 
-/* this is for the roles under my name */
-#roles-container {
-	text-align: center;
+#home-bg {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#roles-text {
-	display: inline-block;
-	vertical-align: middle;
-	color: black;
-	letter-spacing: 2px;
-}
 
-#roles-cursor {
-	display: inline-block;
-	vertical-align: middle;
-	width: 3px;
-	height: 20px;
-	background-color: orange;
-	animation: blink .75s step-end infinite;
+.typed-cursor {
+    opacity: 1;
+    color: white;
+    font-weight: 200;
+    -webkit-animation: blink .7s infinite;
+            animation: blink .7s infinite;
 }
 
 @keyframes blink {
-	from, to { 
-		background-color: transparent 
-	}
-	50% { 
-		background-color: green; 
-	}
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
-/* */
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
