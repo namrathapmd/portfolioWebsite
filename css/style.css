@@ -6,6 +6,23 @@ header {
     background-attachment: fixed;
 }
 
+header .nav-item:last-child {
+    padding-right: 5.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+    font-size: 1.4em;
+}
+
+header .nav-link {
+    color: white;
+}
+
+header .nav-link:hover {
+    color: #2867B2;
+}
+
 .homepage-img {
     opacity: 90%;
 }
