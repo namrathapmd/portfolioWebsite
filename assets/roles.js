@@ -10,6 +10,3 @@ var options = {
 };
 
 var typed = new Typed('.typed', options);
-
-
-
