@@ -1,0 +1,56 @@
+.homepage-img {
+    opacity: 90%;
+}
+
+.exp-logo {
+    width: 5em;
+}
+
+.contact-me-logos {
+    font-size: 3em;
+    text-decoration: none !important;
+}
+
+.projects-logo {
+    font-size: 2em;
+    text-decoration: none !important;
+}
+
+.projects-logo:hover {
+    color: black !important;
+}
+
+.contact-me-bg {
+    background-color: lightgray;
+}
+
+/* this is for the roles under my name */
+#roles-container {
+	text-align: center;
+}
+
+#roles-text {
+	display: inline-block;
+	vertical-align: middle;
+	color: black;
+	letter-spacing: 2px;
+}
+
+#roles-cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 20px;
+	background-color: orange;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: green; 
+	}
+}
+/* */
