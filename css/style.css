@@ -44,7 +44,8 @@ header {
 .typed-cursor {
     opacity: 1;
     color: white;
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 3em;
     -webkit-animation: blink .7s infinite;
             animation: blink .7s infinite;
 }
@@ -75,4 +76,15 @@ header {
     100% {
         opacity: 1;
     }
+}
+
+.name-title {
+    color:white;
+    font-size:80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.roles-text {
+    color:white;
+    font-size: 40px;
 }
