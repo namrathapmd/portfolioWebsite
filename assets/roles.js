@@ -1,6 +1,6 @@
 
 var options = {
-    strings: ['Fullstack Engineer', 'Dog Lover', 'Dance Enthusiast'],
+    strings: ['Software Engineer', 'Animal Lover', 'Dance Enthusiast'],
     typeSpeed: 80,
     backSpeed: 50,
     showCursor: true,
